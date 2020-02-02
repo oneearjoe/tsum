@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="RegistrationAPITest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-02-02T12:12:20" hostname="DESKTOP-OLSPMHF" time="3.287">
+  <properties/>
+  <testcase name="registartionPositive" classname="RegistrationAPITest" time="3.287"/>
+  <system-out><![CDATA[JSON :{"user-profile":{"email":"random1e@mail.com","password":"q1w2e3r4"}}
+Response :{"user-profile":{"id":1000054958,"uuid":"4e8f912f-095b-4ea2-90ba-e77d187a415c","name":"","lastName":"","birthDate":null,"email":"random1e@mail.com","phone":"","gender":"F","counters":{"ordersTotal":0,"ordersActive":0,"wishlistItems":0},"isRegistration":true},"geo":{"countryName":"Russia","cityName":"Volgograd","regionName":"Volgogradskaya Oblast'","countryNameRus":"Россия","cityNameRus":"Волгоград","regionNameRus":"Волгоградская область","zip":""},"privileges":{"isPrivilegedBrand":false,"isSpecialBuyers":false,"isSpecialCatalog":false,"isMerchandiser":false},"loyaltyCard":{"type":"","number":"","numberHash":""}}
+Status Code :200
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

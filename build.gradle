@@ -1,12 +1,17 @@
+
+
 buildscript {
+    ext.serenity_version = '2.1.2'
     repositories {
         mavenLocal()
         jcenter()
     }
     dependencies {
-        classpath("net.serenity-bdd:serenity-gradle-plugin:1.1.1")
-    }
+        classpath "net.serenity-bdd:serenity-gradle-plugin:$serenity_version"
+          }
 }
+
+
 
 plugins {
     id 'java'
@@ -30,10 +35,12 @@ apply plugin: 'net.serenity-bdd.aggregator'
 
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.12'
-    testCompile 'net.serenity-bdd:serenity-core:1.1.1'
-    testCompile 'net.serenity-bdd:serenity-junit:1.1.1'
     testCompile('junit:junit:4.12')
-    testCompile('org.assertj:assertj-core:1.7.0')
-    testCompile('org.slf4j:slf4j-simple:1.7.7')
+    testCompile group: 'net.serenity-bdd', name: 'serenity-core', version: "$serenity_version"
+    testCompile group: 'net.serenity-bdd', name: 'serenity-junit', version: "$serenity_version"
+    testCompile group: 'net.serenity-bdd', name: 'serenity-rest-assured', version: "$serenity_version"
+    testCompile group: 'net.serenity-bdd', name: 'serenity-gradle-plugin', version: "$serenity_version"
+    testCompile('org.assertj:assertj-core:3.8.0')
+    testCompile('org.slf4j:slf4j-simple:1.7.25')
     
 }

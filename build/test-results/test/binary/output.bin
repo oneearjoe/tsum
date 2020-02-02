@@ -1,0 +1,3 @@
+LJSON :{"user-profile":{"email":"random1e@mail.com","password":"q1w2e3r4"}}
+�Response :{"user-profile":{"id":1000054958,"uuid":"4e8f912f-095b-4ea2-90ba-e77d187a415c","name":"","lastName":"","birthDate":null,"email":"random1e@mail.com","phone":"","gender":"F","counters":{"ordersTotal":0,"ordersActive":0,"wishlistItems":0},"isRegistration":true},"geo":{"countryName":"Russia","cityName":"Volgograd","regionName":"Volgogradskaya Oblast'","countryNameRus":"Россия","cityNameRus":"Волгоград","regionNameRus":"Волгоградская область","zip":""},"privileges":{"isPrivilegedBrand":false,"isSpecialBuyers":false,"isSpecialCatalog":false,"isMerchandiser":false},"loyaltyCard":{"type":"","number":"","numberHash":""}}
+Status Code :200
