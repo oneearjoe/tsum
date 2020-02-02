@@ -1,10 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="RegistrationAPITest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-02-02T12:12:20" hostname="DESKTOP-OLSPMHF" time="3.287">
+<testsuite name="RegistrationAPITest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-02-02T15:22:51" hostname="DESKTOP-OLSPMHF" time="4.432">
   <properties/>
-  <testcase name="registartionPositive" classname="RegistrationAPITest" time="3.287"/>
-  <system-out><![CDATA[JSON :{"user-profile":{"email":"random1e@mail.com","password":"q1w2e3r4"}}
-Response :{"user-profile":{"id":1000054958,"uuid":"4e8f912f-095b-4ea2-90ba-e77d187a415c","name":"","lastName":"","birthDate":null,"email":"random1e@mail.com","phone":"","gender":"F","counters":{"ordersTotal":0,"ordersActive":0,"wishlistItems":0},"isRegistration":true},"geo":{"countryName":"Russia","cityName":"Volgograd","regionName":"Volgogradskaya Oblast'","countryNameRus":"Россия","cityNameRus":"Волгоград","regionNameRus":"Волгоградская область","zip":""},"privileges":{"isPrivilegedBrand":false,"isSpecialBuyers":false,"isSpecialCatalog":false,"isMerchandiser":false},"loyaltyCard":{"type":"","number":"","numberHash":""}}
+  <testcase name="registartionPositive" classname="RegistrationAPITest" time="4.432"/>
+  <system-out><![CDATA[JSON :{"user-profile":{"email":"noname84.41985477292853@mail.com","password":"q1w2e3r4"}}
+Response :{"user-profile":{"id":1000055022,"uuid":"630cff9e-4c2e-4388-bc68-e0c81cc7b24a","name":"","lastName":"","birthDate":null,"email":"noname84.41985477292853@mail.com","phone":"","gender":"F","counters":{"ordersTotal":0,"ordersActive":0,"wishlistItems":0},"isRegistration":true},"geo":{"countryName":"Russia","cityName":"Volgograd","regionName":"Volgogradskaya Oblast'","countryNameRus":"Россия","cityNameRus":"Волгоград","regionNameRus":"Волгоградская область","zip":""},"privileges":{"isPrivilegedBrand":false,"isSpecialBuyers":false,"isSpecialCatalog":false,"isMerchandiser":false},"loyaltyCard":{"type":"","number":"","numberHash":""}}
 Status Code :200
 ]]></system-out>
-  <system-err><![CDATA[]]></system-err>
+  <system-err><![CDATA[[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+
+-------------------------------------------------------------------------------------
+     _______. _______ .______       _______ .__   __.  __  .___________.____    ____ 
+    /       ||   ____||   _  \     |   ____||  \ |  | |  | |           |\   \  /   / 
+   |   (----`|  |__   |  |_)  |    |  |__   |   \|  | |  | `---|  |----` \   \/   /  
+    \   \    |   __|  |      /     |   __|  |  . `  | |  |     |  |       \_    _/   
+.----)   |   |  |____ |  |\  \----.|  |____ |  |\   | |  |     |  |         |  |     
+|_______/    |_______|| _| `._____||_______||__| \__| |__|     |__|         |__|    
+                                                                                     
+ News and tutorials at http://www.serenity-bdd.info                                  
+ Documentation at https://wakaleo.gitbooks.io/the-serenity-book/content/             
+ Join the Serenity Community on Rocket Chat at https://serenity-bdd.rocket.chat      
+ Serenity BDD Support and Training at http://serenity-bdd.info/#/trainingandsupport  
+ Learn Serenity BDD online at http://serenity-dojo.com                               
+-------------------------------------------------------------------------------------
+
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - Test Suite Started: Registration API test
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: registartionPositive
+-------------------------------------------------------------------
+[Test worker] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 1
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: Registartion positive
+----------------------------------------------------------------------------
+]]></system-err>
 </testsuite>
